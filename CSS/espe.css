@@ -1,0 +1,36 @@
+
+* {
+    color: yellow    
+}
+
+#parrafoId {
+    color: green;
+}
+
+/*clase parrafo*/
+.parrafo {
+    color: blue !important;
+}
+
+/*selector de tipo*/
+p {
+    color: red;
+}
+
+/*inline > id > clase > tipo > universal*/
+
+/*descendiente*/
+p > strong {
+    color: orange;
+}
+
+/*hermano adyancente*/
+h1 + p {
+    color: red;
+}
+
+/*selector general*/
+/*alt+126 ~ */
+h2 ~ p {
+    color:aqua
+}
